@@ -78,6 +78,7 @@ server
         <meta charset="utf-8" />
         <meta property="og:type" content="siteweb" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="rating" content="adult">
         <meta name="robots" content="${
           runtimeConfig.META_INDEX_STATUS || 'noindex'
         }">
