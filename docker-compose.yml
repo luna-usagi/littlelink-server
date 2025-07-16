@@ -16,13 +16,15 @@ services:
       - LANG=en
       - META_INDEX_STATUS=all
       - THEME=Dark
-      - FAVICON_URL=https://drive.proton.me/urls/RXJHQNF1M8#VWAtOOBuxZdr
+      - FAVICON_URL=https://i.ibb.co/RphGxYTJ/crescent-logo1.png
       - AVATAR_URL=https://i.ibb.co/RphGxYTJ/crescent-logo1.png
       - AVATAR_2X_URL=https://i.ibb.co/RphGxYTJ/crescent-logo1.png
       - AVATAR_ALT=Luna Usagi Profile Pic
-      - NAME=LunaUsagi
-      - BIO=helloooooooooooo
+      - NAME=Luna Usagi
+      - BIO=helloooooooooooo WIP
       - FOOTER=Thanks for stopping by!
+      - FANSLY=https://fans.ly/lunausagi/t0
+      - ONLYFANS=https://onlyfans.com/lunausagi/c1
       # - GITHUB=https://github.com/timothystewart6
       # - TWITTER=https://twitter.com/TechnoTimLive
       # - INSTAGRAM=https://www.instagram.com/techno.tim
@@ -83,7 +85,6 @@ services:
       # - TEESPRING=https://teespring.com/
       # - XING=https://www.xing.com/en
       # - KEYBASE=https://keybase.io/
-      - ONLYFANS=https://onlyfans.com/
       - SESSION=https://getsession.org/
       # - THREEMA=https://threema.ch/en/
       - STREAMLABS=https://streamlabs.com/

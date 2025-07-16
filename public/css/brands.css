@@ -771,3 +771,9 @@ button {
   background-color: #ffff;
 }
 
+/* TODO */
+/* Fansly */
+.button.button-fansly {
+  color: #000000;
+  background-color: #ffffff;
+}
