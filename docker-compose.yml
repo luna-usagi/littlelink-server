@@ -21,10 +21,12 @@ services:
       - AVATAR_2X_URL=https://i.ibb.co/RphGxYTJ/crescent-logo1.png
       - AVATAR_ALT=Luna Usagi Profile Pic
       - NAME=Luna Usagi
-      - BIO=helloooooooooooo WIP
+      - BIO=spicy content creator & sexy submissive services by Luna <3
       - FOOTER=Thanks for stopping by!
       - FANSLY=https://fans.ly/lunausagi/t0
       - ONLYFANS=https://onlyfans.com/lunausagi/c1
+      - SESSION=https://ibb.co/G3BrJjVW/
+      - BUTTON_TARGET=
       # - GITHUB=https://github.com/timothystewart6
       # - TWITTER=https://twitter.com/TechnoTimLive
       # - INSTAGRAM=https://www.instagram.com/techno.tim
@@ -77,7 +79,7 @@ services:
       # - POLYWORK=https://www.polywork.com/
       # - SIGNAL=https://signal.org/
       # - UNTAPPD=https://untappd.com/
-      - BUTTON_TARGET=_blank
+
       # - INSTANTGAMING=https://www.instant-gaming.com/
       # - GHOST=https://ghost.org/
       # - TRAKT=https://trakt.tv
@@ -85,9 +87,8 @@ services:
       # - TEESPRING=https://teespring.com/
       # - XING=https://www.xing.com/en
       # - KEYBASE=https://keybase.io/
-      - SESSION=https://getsession.org/
       # - THREEMA=https://threema.ch/en/
-      - STREAMLABS=https://streamlabs.com/
+      # - STREAMLABS=https://streamlabs.com/
       # - PRIVATEBIN=https://privatebin.net/
       # - AMAZON_AFFILIATE=https://affiliate-program.amazon.co.uk/
       - AMAZON_WISHLIST=https://www.amazon.co.uk/b?node=22758010031
@@ -142,7 +143,7 @@ services:
       # - GOOGLESCHOLAR=https://scholar.google.co.uk/
       # - SIMPLEX=https://simplex.chat/
       # - MIXCLOUD=https://www.mixcloud.com/
-     #  - INTERNETARCHIVE=https://archive.org/
+      #  - INTERNETARCHIVE=https://archive.org/
       # - GOOGLEMAPS=https://www.google.com/maps
       # - TIDAL=https://tidal.com/
       # - THESTORYGRAPH=https://www.thestorygraph.com/

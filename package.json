@@ -30,7 +30,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.30.1",
-    "serialize-javascript": "^6.0.2"
+    "serialize-javascript": "^6.0.2",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.27.3",
@@ -55,7 +59,10 @@
     "stylelint": "^16.20.0",
     "url": "^0.11.4",
     "webpack": "^5.99.9",
-    "webpack-dev-server": "^4.15.2"
+    "webpack-dev-server": "^4.15.2",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "react-scripts": "latest"
   },
   "resolutions": {
     "string-width": "4.2.3",

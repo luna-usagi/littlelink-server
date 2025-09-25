@@ -1,8 +1,14 @@
 import React, { memo } from 'react';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
 import Avatar from '../Avatar/Avatar';
 import Button from '../Button/Button';
 import Share from '../Share/Share';
+import Modal from '../Modal/textModal'
 import { runtimeConfig } from '../../config';
+import fetlifeLogo from '../../icons/fetlife-logo.png';
 import githubLogo from '../../icons/github.svg';
 import instagramLogo from '../../icons/instagram.svg';
 import kitLogo from '../../icons/kit.svg';
@@ -191,6 +197,15 @@ function Home(props) {
                   displayName="YouTube"
                   logo={youtubeLogo}
                   order={buttonOrder('YOUTUBE')}
+                />
+              )}
+              {runtimeConfig.FETLIFE && (
+                <Button
+                  name="fetlife"
+                  href={runtimeConfig.FETLIFE}
+                  displayName="Fetlife"
+                  logo={fetlifeLogo}
+                  order={buttonOrder('FETLIFE')}
                 />
               )}
               {runtimeConfig.TWITCH && (
