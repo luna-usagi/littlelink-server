@@ -2,34 +2,32 @@ import React, { memo } from 'react';
 import Avatar from '../Avatar/Avatar';
 import Button from '../Button/Button';
 import Share from '../Share/Share';
+import Sort from '../Sort/Sort';
 import { runtimeConfig } from '../../config';
-import githubLogo from '../../icons/github.svg';
 import instagramLogo from '../../icons/instagram.svg';
-import kitLogo from '../../icons/kit.svg';
-import tiktokLogo from '../../icons/tiktok.svg';
-import twitchLogo from '../../icons/twitch.svg';
-import twitterLogo from '../../icons/twitter.svg';
-import discordLogo from '../../icons/discord.svg';
-import youtubeLogo from '../../icons/youtube.svg';
-import facebookLogo from '../../icons/facebook.svg';
-import messengerLogo from '../../icons/messenger.svg';
-import linkedinLogo from '../../icons/linkedin.svg';
-import producthuntLogo from '../../icons/producthunt.svg';
-import snapchatLogo from '../../icons/snapchat.svg';
-import spotifyLogo from '../../icons/spotify.svg';
+// import kitLogo from '../../icons/kit.svg';
+// import tiktokLogo from '../../icons/tiktok.svg';
+// import twitchLogo from '../../icons/twitch.svg';
+// import twitterLogo from '../../icons/twitter.svg';
+// import discordLogo from '../../icons/discord.svg';
+// import youtubeLogo from '../../icons/youtube.svg';
+// import facebookLogo from '../../icons/facebook.svg';
+// import messengerLogo from '../../icons/messenger.svg';
+// import snapchatLogo from '../../icons/snapchat.svg';
+// import spotifyLogo from '../../icons/spotify.svg';
 import redditLogo from '../../icons/reddit.svg';
-import mediumLogo from '../../icons/medium.svg';
+// import mediumLogo from '../../icons/medium.svg';
 import pinterestLogo from '../../icons/pinterest.svg';
-import soundcloudLogo from '../../icons/soundcloud.svg';
-import figmaLogo from '../../icons/figma.svg';
+// import soundcloudLogo from '../../icons/soundcloud.svg';
+// import figmaLogo from '../../icons/figma.svg';
 import telegramLogo from '../../icons/telegram.svg';
 import tumblrLogo from '../../icons/tumblr.svg';
 import steamLogo from '../../icons/steam.svg';
-import vimeoLogo from '../../icons/vimeo.svg';
-import wordpressLogo from '../../icons/wordpress.svg';
-import goodreadsLogo from '../../icons/goodreads.svg';
-import skoobLogo from '../../icons/skoob.svg';
-import letterboxdLogo from '../../icons/letterboxd.svg';
+// import vimeoLogo from '../../icons/vimeo.svg';
+// import wordpressLogo from '../../icons/wordpress.svg';
+// // import goodreadsLogo from '../../icons/goodreads.svg';
+// import skoobLogo from '../../icons/skoob.svg';
+// import letterboxdLogo from '../../icons/letterboxd.svg';
 import mastodonLogo from '../../icons/mastodon.svg';
 import microblogLogo from '../../icons/microblog.svg';
 import emailLogo from '../../icons/email.svg';
@@ -38,15 +36,10 @@ import whatsappLogo from '../../icons/whatsapp.svg';
 import stravaLogo from '../../icons/strava.svg';
 import blueSkyLogo from '../../icons/bluesky.svg';
 import buyMeACoffeeLogo from '../../icons/buymeacoffee.svg';
-import gitlabLogo from '../../icons/gitlab.svg';
-import patreonLogo from '../../icons/patreon.svg';
-import devtoLogo from '../../icons/devto.svg';
-import Sort from '../Sort/Sort';
-import paypalLogo from '../../icons/paypal.svg';
-import slackLogo from '../../icons/slack.svg';
-import stackoverflowLogo from '../../icons/stackoverflow.svg';
-import lastfmLogo from '../../icons/lastfm.svg';
-import giteaLogo from '../../icons/gitea.svg';
+// import gitlabLogo from '../../icons/gitlab.svg';
+// import patreonLogo from '../../icons/patreon.svg';
+// import lastfmLogo from '../../icons/lastfm.svg';
+// import giteaLogo from '../../icons/gitea.svg';
 import polyworkLogo from '../../icons/polywork.svg';
 import signalLogo from '../../icons/signal.svg';
 import untappdLogo from '../../icons/untappd.svg';
@@ -58,7 +51,7 @@ import teespringLogo from '../../icons/teespring.svg';
 import xingLogo from '../../icons/xing.svg';
 import keybaseLogo from '../../icons/keybase.svg';
 import onlyfansLogo from '../../icons/onlyfans.svg';
-import sessionLogo from '../../icons/session.svg';
+import sessionLogo from '../../icons/session.svg'; // SESSION HERE
 import threemaLogo from '../../icons/threema.svg';
 import streamlabsLogo from '../../icons/streamlabs.svg';
 import privatebinLogo from '../../icons/privatebin.svg';
@@ -677,13 +670,22 @@ function Home(props) {
                   order={buttonOrder('ONLYFANS')}
                 />
               )}
-              {runtimeConfig.SESSION && (
+              {runtimeConfig.SESSION_QR && (
                 <Button
-                  name="session"
-                  href={runtimeConfig.SESSION}
-                  displayName="Session"
+                  name="sessionQR"
+                  href={runtimeConfig.SESSION_QR}
+                  displayName="Session QR"
                   logo={sessionLogo}
-                  order={buttonOrder('SESSION')}
+                  order={buttonOrder('SESSION_1')}
+                />
+              )}
+              {runtimeConfig.SESSION_CODE && (
+                <Button
+                  name="sessionCode"
+                  href={runtimeConfig.SESSION_CODE}
+                  displayName="Session ID Code"
+                  logo={sessionLogo}
+                  order={buttonOrder('SESSION_2')}
                 />
               )}
               {runtimeConfig.THREEMA && (
